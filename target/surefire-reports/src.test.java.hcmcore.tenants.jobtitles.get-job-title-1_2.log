@@ -1,0 +1,16 @@
+21:18:33.947 karate.env system property was: null 
+21:18:33.967 request:
+1 > GET http://localhost:8080/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=false&sortProperty=dateModified&sortDirection=ascending&includeTotalRecordCount=false
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > Ocp-Apim-Subscription-Key: CorrectAPIKey
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+21:18:33.984 response time in milliseconds: 15.84
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json
+{"pageSize\"":100,"page\"":1,"hasMoreResults\"":false,"results\"":"\\[{\"title\": \"Test\"","isSelectable":true,"xref":{"companyId":882017,"jobTitleUid":"870da7df-ca60-4767-aab0-e3379f5001fc"},"isActive":true,"meta":{"dateCreated":"2019-01-07T20:56:11.1003281+00:00","dateModified":"2019-01-07T20:56:11.1003281+00:00","revision":1,"dateModifiedSystemOfRecord":"2016-01-06T22:15:45.13+00:00"},"tenantId":"f06693bc-f5a5-47e6-b409-6dc545a122d7","id":"a61e9539-0587-4261-b769-c5e292b9b0f6"}
+

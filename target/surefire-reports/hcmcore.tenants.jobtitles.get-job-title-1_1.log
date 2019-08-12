@@ -1,0 +1,25 @@
+15:36:28.372 karate.env system property was: null 
+15:36:29.099 request:
+1 > GET http://localhost:8080/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > Ocp-Apim-Subscription-Key: CorrectAPIKey
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+15:36:29.566 response time in milliseconds: 463.22
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: text/html; charset=utf-8
+<html>
+<body>Not Found</body>
+</html>
+
+
+15:36:29.641 status code was: 404, expected: 200, response time: 463, url: http://localhost:8080/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true, response: <html>
+
+<body>Not Found</body>
+
+</html>
+

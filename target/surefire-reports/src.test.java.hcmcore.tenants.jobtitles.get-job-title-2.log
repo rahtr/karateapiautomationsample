@@ -1,0 +1,39 @@
+21:18:34.015 karate.env system property was: null 
+21:18:34.037 request:
+1 > GET http://localhost:8080/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > Ocp-Apim-Subscription-Key: InCorrectAPIKey
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+21:18:34.063 response time in milliseconds: 24.75
+1 < 401
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json
+{"message":"Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription."}
+
+/4.5.5 (Java/1.8.0_201)
+
+20:32:01.887 request:
+3 > GET http://localhost:8080/v1/tenants/incorrectID/jobtitles
+3 > Accept: application/json
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Host: localhost:8080
+3 > Ocp-Apim-Subscription-Key: CorrectAPIKey
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+20:32:01.922 request:
+4 > GET http://localhost:8080/v1/tenants/incorrectID/jobtitles
+4 > Accept: application/json
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Host: localhost:8080
+4 > Ocp-Apim-Subscription-Key: CorrectAPIKey
+4 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+20:32:01.959 org.apache.http.NoHttpResponseException: localhost:8080 failed to respond, http call failed after 35 milliseconds for URL: http://localhost:8080/v1/tenants/incorrectID/jobtitles
+20:32:01.960 http request failed: 
+org.apache.http.NoHttpResponseException: localhost:8080 failed to respond

@@ -1,0 +1,17 @@
+21:18:32.234 karate.env system property was: null 
+21:18:33.831 request:
+1 > GET http://localhost:8080/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=dateCreated&sortDirection=descending&includeTotalRecordCount=true
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > Ocp-Apim-Subscription-Key: CorrectAPIKey
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+21:18:33.911 response time in milliseconds: 74.11
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json
+{"pageSize\"":100,"page\"":1,"hasMoreResults\"":false,"results\"":"\\[{\"title\": \"Test\"","isSelectable":true,"xref":{"companyId":882017,"jobTitleUid":"870da7df-ca60-4767-aab0-e3379f5001fc"},"isActive":true,"meta":{"dateCreated":"2019-01-07T20:56:11.1003281+00:00","dateModified":"2019-01-07T20:56:11.1003281+00:00","revision":1,"dateModifiedSystemOfRecord":"2016-01-06T22:15:45.13+00:00"},"tenantId":"f06693bc-f5a5-47e6-b409-6dc545a122d7","id":"a61e9539-0587-4261-b769-c5e292b9b0f6"}
+
+122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true, response: {"statusCode":401,"message":"Access denied due to missing subscription key. Make sure to include subscription key when making requests to an API."}

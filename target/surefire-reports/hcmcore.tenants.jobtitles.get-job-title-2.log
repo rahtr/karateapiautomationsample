@@ -1,0 +1,19 @@
+15:36:29.738 karate.env system property was: null 
+15:36:29.749 request:
+1 > GET http://localhost:8080/v1/tenants/incorrectID/jobtitles
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > Ocp-Apim-Subscription-Key: CorrectAPIKey
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+15:36:29.778 response time in milliseconds: 14.88
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: text/html; charset=utf-8
+<html>
+<body>Not Found</body>
+</html>
+
+

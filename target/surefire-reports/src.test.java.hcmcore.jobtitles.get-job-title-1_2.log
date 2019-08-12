@@ -1,0 +1,15 @@
+09:00:21.592 karate.env system property was: null 
+09:00:21.595 [print] https://localhost
+09:00:21.603 request:
+1 > GET https://localhost/v1/tenants/123/jobtitles?page=a&page=b&pageSize=a&pageSize=b
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+09:00:21.604 org.apache.http.conn.HttpHostConnectException: Connect to localhost:443 [localhost/127.0.0.1] failed: Connection refused (Connection refused), http call failed after 1 milliseconds for URL: https://localhost/v1/tenants/123/jobtitles?page=a&page=b&pageSize=a&pageSize=b
+09:00:21.605 http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:443 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+s to an API." }
+
+08:48:52.486 status code was: 401, expected: 200, response time: 136, url: https://api-dev.paycor.com/hcmcore/v1/tenants/123/jobtitles?p=%5B%22pageSize%22%5D, response: {"statusCode":401,"message":"Access denied due to missing subscription key. Make sure to include subscription key when making requests to an API."}

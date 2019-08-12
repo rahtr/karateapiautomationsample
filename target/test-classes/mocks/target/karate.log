@@ -1,0 +1,1065 @@
+09:41:08.737 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+09:41:09.973 [main] INFO  com.intuit.karate - backend initialized
+09:41:10.096 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+09:42:31.530 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+09:42:31.684 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles') && methodIs('get')
+09:42:31.690 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles')
+09:42:31.698 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles/{id}')
+09:42:31.704 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+09:42:31.704 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: (empty)
+09:49:29.017 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+09:49:30.368 [main] INFO  com.intuit.karate - backend initialized
+09:49:30.495 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+09:49:41.240 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+09:49:41.459 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles') && methodIs('get')
+09:49:41.470 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles')
+09:49:41.482 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles/{id}')
+09:49:41.503 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+09:49:41.503 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: (empty)
+09:50:37.104 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+09:50:37.106 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles') && methodIs('get')
+09:50:37.106 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles')
+09:50:37.106 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/jobtitles/{id}')
+09:50:37.107 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+09:50:37.107 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: (empty)
+09:51:54.892 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+09:52:02.390 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+09:52:03.614 [main] INFO  com.intuit.karate - backend initialized
+09:52:03.743 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+09:52:27.834 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+09:52:27.940 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+09:52:28.075 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /cats/3dde1aeb-2200-4df1-8abd-2c70447fb734
+09:52:28.077 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:28.083 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+09:52:28.090 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats/{id}')
+09:52:28.125 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+09:52:28.127 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:28.129 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+09:52:28.145 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+09:52:28.146 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+09:52:28.161 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /cats/ffd7c9a7-52eb-42cc-adcb-1510fce7d582
+09:52:28.162 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:28.163 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+09:52:28.164 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats/{id}')
+09:52:28.178 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+09:52:28.180 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:28.180 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+10:24:25.420 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: POST, uri: /testid/cats
+10:24:25.423 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:24:25.427 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:24:25.428 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:24:25.452 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:24:25.453 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: (empty)
+10:26:00.173 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: POST, uri: /testid/cats
+10:26:00.175 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:26:00.176 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:26:00.176 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:26:00.177 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:26:00.177 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: (empty)
+10:27:18.711 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+10:27:18.712 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:27:18.713 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:27:18.719 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:27:18.720 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:27:18.720 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: (empty)
+10:29:21.219 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /testid/cats
+10:29:21.220 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:29:21.221 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:29:21.222 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:29:21.222 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:29:21.222 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: (empty)
+10:30:31.187 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /
+10:30:31.189 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:30:31.189 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:30:31.190 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:30:31.191 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:30:31.191 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: (empty)
+10:31:53.168 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+10:31:53.169 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+10:32:38.981 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+10:32:38.982 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+10:32:39.042 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /id/cats
+10:32:39.044 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:32:39.044 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:32:39.045 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:32:39.045 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:32:39.045 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: (empty)
+10:33:21.792 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+10:33:21.794 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+10:33:21.851 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: GET, uri: /id/cats
+10:33:21.853 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:33:21.854 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:33:21.860 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:33:21.861 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:33:21.863 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: (empty)
+10:34:37.855 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+10:34:37.856 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+10:35:04.444 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+10:35:04.445 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+10:35:04.492 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /id/cats
+10:35:04.493 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:35:04.493 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:35:04.494 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:35:04.494 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:35:04.494 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: (empty)
+10:36:26.287 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+10:36:26.289 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+10:36:26.328 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /cats/id
+10:36:26.329 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:36:26.330 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:36:26.330 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats/{id}')
+10:37:51.765 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+10:37:51.766 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+10:37:51.810 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: GET, uri: /id/cats
+10:37:51.811 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+10:37:51.815 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+10:37:51.816 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+10:37:51.818 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+10:37:51.818 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: (empty)
+11:23:15.561 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+11:23:15.563 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+11:23:15.623 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /tid/cats
+11:23:15.625 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:23:15.626 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:23:15.626 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+11:23:15.628 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+11:23:15.628 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: (empty)
+11:25:45.687 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+11:25:45.689 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+11:25:45.776 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /id/cats
+11:25:45.778 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:25:45.780 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:25:45.781 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+11:25:45.783 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+11:25:45.783 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: (empty)
+11:27:28.750 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+11:27:28.752 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:27:28.756 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+11:28:03.885 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /cats/id/cats
+11:28:03.886 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:28:03.888 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:28:03.900 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+11:28:03.901 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+11:28:03.901 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: (empty)
+11:28:09.215 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: GET, uri: /cats/id
+11:28:09.218 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:28:09.218 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:28:09.219 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats/{id}')
+11:28:11.763 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: GET, uri: /cats/
+11:28:11.793 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:28:11.793 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+11:28:33.052 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /id/
+11:28:33.056 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:28:33.066 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:28:33.068 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+11:28:33.068 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+11:28:33.069 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: (empty)
+11:28:39.329 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /cats/id/
+11:28:39.331 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:28:39.336 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:28:39.337 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats/{id}')
+11:30:12.621 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+11:30:12.623 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:30:12.623 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+11:30:22.366 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+11:30:22.368 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:30:22.368 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+11:30:23.024 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+11:30:23.025 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:30:23.025 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+11:30:23.255 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+11:30:23.260 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:30:23.262 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+11:31:10.490 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:31:12.523 [main] INFO  com.intuit.karate - backend initialized
+11:31:12.678 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:31:30.369 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+11:31:30.574 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+11:31:30.737 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /tid/cats
+11:31:30.740 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:31:30.751 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:31:30.762 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/tid/cats') && methodIs('get')
+11:31:30.779 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /
+11:31:30.781 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:31:30.782 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:31:30.782 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/tid/cats') && methodIs('get')
+11:31:30.790 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+11:31:30.797 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+11:31:30.798 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: (empty)
+11:42:22.520 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:42:22.522 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+11:42:22.523 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+11:42:22.525 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/tid/cats') && methodIs('get')
+11:42:22.525 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+11:42:22.526 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+11:42:22.527 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: (empty)
+11:43:44.537 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:43:46.428 [main] INFO  com.intuit.karate - backend initialized
+11:43:46.603 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:44:04.539 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:44:05.067 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '{' expecting <EOF>
+11:44:05.096 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: /home/rahullfo/Documents/repo/paycorapiautomation/src/test/java/mocks/job-titles-mock.feature - mismatched input '{' expecting <EOF>
+11:44:29.236 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:44:29.745 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '{' expecting <EOF>
+11:44:29.774 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: /home/rahullfo/Documents/repo/paycorapiautomation/src/test/java/mocks/job-titles-mock.feature - mismatched input '{' expecting <EOF>
+11:45:02.621 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:45:04.989 [main] INFO  com.intuit.karate - backend initialized
+11:45:05.182 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:45:19.532 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:45:19.880 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:49:28.773 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:49:30.664 [main] INFO  com.intuit.karate - backend initialized
+11:49:30.799 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:49:45.249 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:49:45.605 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:49:45.658 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:9
+11:49:45.659 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:9 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+11:49:45.675 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:49:45.677 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:49:45.679 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:9
+11:49:45.679 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:9 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+11:49:45.688 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:49:45.690 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:49:45.691 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:9
+11:49:45.692 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:9 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+11:49:45.706 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:49:45.710 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:49:45.711 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:9
+11:49:45.712 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:9 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+11:51:01.180 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:51:03.064 [main] INFO  com.intuit.karate - backend initialized
+11:51:03.223 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:51:17.677 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:51:18.068 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:51:18.172 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:9
+11:51:18.173 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:9 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+11:51:18.187 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:51:18.189 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:51:18.197 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:9
+11:51:18.198 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:9 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+11:51:18.209 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:51:18.215 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:51:18.219 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:9
+11:51:18.223 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:9 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+11:51:18.258 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:51:18.260 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:51:18.266 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:9
+11:51:18.266 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:9 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+11:53:37.472 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:53:39.115 [main] INFO  com.intuit.karate - backend initialized
+11:53:39.272 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:53:52.363 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:53:52.619 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:54:37.660 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:54:39.126 [main] INFO  com.intuit.karate - backend initialized
+11:54:39.280 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:54:50.425 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:54:50.679 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:54:50.750 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+11:54:50.751 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+11:54:50.763 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:54:50.765 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:54:50.766 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+11:54:50.767 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+11:54:50.773 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:54:50.774 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:54:50.776 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+11:54:50.776 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+11:54:50.786 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:54:50.787 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:54:50.790 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+11:54:50.790 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+11:58:09.606 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:58:11.277 [main] INFO  com.intuit.karate - backend initialized
+11:58:11.446 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:58:26.385 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:58:26.740 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:59:00.349 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+11:59:02.033 [main] INFO  com.intuit.karate - backend initialized
+11:59:02.233 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+11:59:14.732 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:59:15.019 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:59:15.070 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+11:59:15.071 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected character ({) at position 5.
+11:59:15.081 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:59:15.083 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:59:15.084 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+11:59:15.084 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected character ({) at position 5.
+11:59:15.092 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:59:15.094 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:59:15.095 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+11:59:15.095 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected character ({) at position 5.
+11:59:15.102 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+11:59:15.104 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+11:59:15.105 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+11:59:15.106 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected character ({) at position 5.
+12:00:09.025 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:00:10.714 [main] INFO  com.intuit.karate - backend initialized
+12:00:10.854 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:00:36.137 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:00:36.392 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:00:36.458 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:00:36.459 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected character ({) at position 5.
+12:00:36.474 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:00:36.476 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:00:36.477 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:00:36.478 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected character ({) at position 5.
+12:00:36.486 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:00:36.488 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:00:36.489 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:00:36.489 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected character ({) at position 5.
+12:00:36.503 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:00:36.505 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:00:36.506 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:00:36.507 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected character ({) at position 5.
+12:01:00.959 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:01:02.710 [main] INFO  com.intuit.karate - backend initialized
+12:01:02.875 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:01:17.255 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:01:17.562 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:01:17.611 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:01:17.612 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:01:17.624 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:01:17.626 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:01:17.627 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:01:17.627 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:01:17.646 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:01:17.647 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:01:17.648 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:01:17.649 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:01:17.656 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:01:17.657 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:01:17.658 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:01:17.659 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:02:32.877 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:02:34.497 [main] INFO  com.intuit.karate - backend initialized
+12:02:34.665 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:02:49.831 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:02:50.112 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:03:34.099 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:03:35.816 [main] INFO  com.intuit.karate - backend initialized
+12:03:35.958 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:03:48.902 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:03:49.198 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:09:00.129 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:09:01.894 [main] INFO  com.intuit.karate - backend initialized
+12:09:02.098 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:09:16.723 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:09:17.137 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:11:46.571 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:11:48.910 [main] INFO  com.intuit.karate - backend initialized
+12:11:49.069 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:12:00.361 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:12:00.667 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:12:00.741 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:12:00.742 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:12:00.753 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:12:00.756 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:12:00.757 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:12:00.757 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:12:00.765 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:12:00.767 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:12:00.768 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:12:00.768 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:12:00.793 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:12:00.795 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:12:00.796 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:12:00.796 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:15:38.856 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:15:40.975 [main] INFO  com.intuit.karate - backend initialized
+12:15:41.163 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:16:24.899 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:16:25.338 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:16:25.394 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:16:25.395 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:16:25.437 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:16:25.439 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:16:25.440 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:16:25.441 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:16:25.451 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:16:25.453 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:16:25.454 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:16:25.455 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:16:25.462 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:16:25.464 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:16:25.465 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:16:25.466 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+12:24:54.357 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:24:56.496 [main] INFO  com.intuit.karate - backend initialized
+12:24:56.675 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:25:15.809 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:25:16.182 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:33:04.340 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:33:06.172 [main] INFO  com.intuit.karate - backend initialized
+12:33:06.329 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:33:22.299 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:33:22.594 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:38:56.792 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:38:58.743 [main] INFO  com.intuit.karate - backend initialized
+12:38:58.906 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:39:12.315 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:39:12.638 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:39:12.639 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:39:12.640 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody=
+12:39:12.655 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:39:12.657 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:39:12.657 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:39:12.658 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody=
+12:39:12.665 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:39:12.667 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:39:12.668 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:39:12.669 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody=
+12:39:12.686 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:39:12.691 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:39:12.692 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:39:12.693 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody=
+12:39:33.615 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:39:35.649 [main] INFO  com.intuit.karate - backend initialized
+12:39:35.860 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:39:47.983 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:39:48.286 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:39:48.291 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:39:48.292 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody=
+12:39:48.322 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:39:48.324 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:39:48.325 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:39:48.326 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody=
+12:39:48.336 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:39:48.338 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:39:48.342 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:39:48.343 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody=
+12:39:48.361 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:39:48.363 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:39:48.363 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:39:48.364 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody=
+12:43:54.336 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:43:56.339 [main] INFO  com.intuit.karate - backend initialized
+12:43:56.491 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:44:11.574 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:44:11.914 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:44:12.028 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:44:12.028 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:44:12.039 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:44:12.042 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:44:12.047 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:44:12.047 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:44:12.055 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:44:12.057 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:44:12.059 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:44:12.060 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:44:12.071 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:44:12.073 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:44:12.074 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:44:12.075 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:44:59.373 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:45:01.227 [main] INFO  com.intuit.karate - backend initialized
+12:45:01.407 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:45:18.605 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:45:19.092 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:45:19.202 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:45:19.203 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 482.
+12:45:19.222 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:45:19.224 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:45:19.225 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:45:19.226 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 482.
+12:45:19.238 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:45:19.243 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:45:19.244 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:45:19.245 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 482.
+12:45:19.254 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:45:19.256 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:45:19.258 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:45:19.258 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 482.
+12:45:45.145 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:45:47.307 [main] INFO  com.intuit.karate - backend initialized
+12:45:47.476 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:46:02.220 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:46:02.553 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:46:02.627 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:46:02.628 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+12:46:02.640 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:46:02.642 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:46:02.644 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:46:02.644 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+12:46:02.658 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:46:02.660 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:46:02.661 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:46:02.662 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+12:46:02.680 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:46:02.681 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:46:02.683 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:46:02.683 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+12:46:50.879 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:46:52.835 [main] INFO  com.intuit.karate - backend initialized
+12:46:53.076 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:47:08.388 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:47:08.743 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:47:08.744 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:47:08.745 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody =
+12:47:08.755 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:47:08.757 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:47:08.760 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:47:08.761 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody =
+12:47:08.774 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:47:08.775 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:47:08.776 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:47:08.777 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody =
+12:47:08.806 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:47:08.811 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:47:08.812 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:47:08.812 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody =
+12:48:09.740 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:48:11.821 [main] INFO  com.intuit.karate - backend initialized
+12:48:12.016 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:48:26.573 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:48:26.914 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:49:18.310 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:49:20.202 [main] INFO  com.intuit.karate - backend initialized
+12:49:20.362 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:49:35.869 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:49:36.186 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:49:36.187 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:49:36.196 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody =
+12:49:36.210 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:49:36.213 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:49:36.213 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:49:36.214 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody =
+12:49:36.227 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:49:36.229 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:49:36.230 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:49:36.231 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody =
+12:49:36.255 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:49:36.257 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:49:36.259 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:49:36.260 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - no step-definition method match found for: json responseBody =
+12:52:44.506 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:52:46.478 [main] INFO  com.intuit.karate - backend initialized
+12:52:46.689 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:52:59.525 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:52:59.834 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:52:59.930 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:52:59.933 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:52:59.957 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:52:59.959 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:52:59.960 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:52:59.960 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:52:59.966 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:52:59.968 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:52:59.969 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:52:59.969 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:52:59.995 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:53:00.001 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:53:00.008 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:10
+12:53:00.009 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:10 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:53:43.824 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:53:45.859 [main] INFO  com.intuit.karate - backend initialized
+12:53:46.047 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:53:58.868 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:53:59.235 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:53:59.314 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:53:59.314 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:53:59.326 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:53:59.329 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:53:59.333 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:53:59.334 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:53:59.341 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:53:59.346 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:53:59.350 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:53:59.351 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:53:59.358 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:53:59.360 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:53:59.361 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:53:59.362 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 481.
+12:55:06.758 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:55:08.830 [main] INFO  com.intuit.karate - backend initialized
+12:55:08.983 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:55:21.157 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:55:21.482 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:55:21.585 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:55:21.586 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+12:55:21.596 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:55:21.599 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:55:21.600 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:55:21.601 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+12:55:21.610 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:55:21.611 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:55:21.613 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:55:21.613 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+12:55:21.621 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:55:21.624 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:55:21.626 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:55:21.627 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token \ at position 483.
+12:55:45.105 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:55:47.322 [main] INFO  com.intuit.karate - backend initialized
+12:55:47.535 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:55:58.067 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:55:58.410 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:55:58.473 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:55:58.474 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token \ at position 482.
+12:55:58.485 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:55:58.489 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:55:58.491 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:55:58.494 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token \ at position 482.
+12:55:58.505 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:55:58.512 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:55:58.516 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:55:58.516 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token \ at position 482.
+12:55:58.526 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:55:58.528 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:55:58.529 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:55:58.530 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token \ at position 482.
+12:56:19.190 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:56:21.362 [main] INFO  com.intuit.karate - backend initialized
+12:56:21.519 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:56:35.269 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:56:35.607 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:56:35.701 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:56:35.702 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 480.
+12:56:35.717 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:56:35.721 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:56:35.724 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:56:35.724 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 480.
+12:56:35.736 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:56:35.738 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:56:35.739 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:56:35.740 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 480.
+12:56:35.749 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+12:56:35.752 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+12:56:35.754 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+12:56:35.755 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 480.
+12:59:47.086 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+12:59:48.869 [main] INFO  com.intuit.karate - backend initialized
+12:59:49.083 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:00:03.207 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:00:03.538 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:00:03.620 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+13:00:03.622 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 480.
+13:00:03.669 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:00:03.672 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:00:03.674 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+13:00:03.687 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 480.
+13:00:03.705 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:00:03.708 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:00:03.711 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+13:00:03.714 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 480.
+13:00:03.762 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:00:03.764 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:00:03.767 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:11
+13:00:03.769 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:11 - net.minidev.json.parser.ParseException: Unexpected token ] at position 480.
+13:01:52.113 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+13:01:54.358 [main] INFO  com.intuit.karate - backend initialized
+13:01:54.497 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:02:06.484 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:02:06.805 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:02:06.893 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:13
+13:02:06.895 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:13 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+13:02:06.910 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:02:06.911 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:02:06.913 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:13
+13:02:06.913 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:13 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+13:02:06.923 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:02:06.924 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:02:06.925 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:13
+13:02:06.926 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:13 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+13:02:06.935 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:02:06.936 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:02:06.938 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:13
+13:02:06.938 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:13 - net.minidev.json.parser.ParseException: Unexpected End Of File position 564: EOF
+13:03:14.815 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+13:03:17.259 [main] INFO  com.intuit.karate - backend initialized
+13:03:17.499 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:03:29.350 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:03:29.602 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:03:29.668 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:13
+13:03:29.669 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:13 - net.minidev.json.parser.ParseException: Unexpected token \ at position 215.
+13:03:29.683 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:03:29.686 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:03:29.687 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:13
+13:03:29.688 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:13 - net.minidev.json.parser.ParseException: Unexpected token \ at position 215.
+13:03:29.698 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:03:29.700 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:03:29.701 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:13
+13:03:29.701 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:13 - net.minidev.json.parser.ParseException: Unexpected token \ at position 215.
+13:03:29.734 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:03:29.735 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:03:29.736 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:13
+13:03:29.737 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:13 - net.minidev.json.parser.ParseException: Unexpected token \ at position 215.
+13:04:09.688 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+13:04:11.723 [main] INFO  com.intuit.karate - backend initialized
+13:04:11.959 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:04:29.661 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:04:29.973 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:06:50.974 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+13:06:52.927 [main] INFO  com.intuit.karate - backend initialized
+13:06:53.123 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:07:09.547 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:07:09.914 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:10:02.503 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+13:10:04.416 [main] INFO  com.intuit.karate - backend initialized
+13:10:04.607 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:10:23.955 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:10:24.284 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:18:46.138 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+13:18:48.133 [main] INFO  com.intuit.karate - backend initialized
+13:18:48.330 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:19:01.527 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:19:01.836 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:22:36.165 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+13:22:38.286 [main] INFO  com.intuit.karate - backend initialized
+13:22:38.571 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:24:09.616 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+13:24:11.893 [main] INFO  com.intuit.karate - backend initialized
+13:24:12.059 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:24:29.305 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:24:29.615 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:24:29.833 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+13:24:29.835 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+13:24:29.855 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+14:52:48.542 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+14:52:50.757 [main] INFO  com.intuit.karate - backend initialized
+14:52:51.026 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:53:10.636 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+14:53:10.999 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+14:53:11.234 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+14:53:11.237 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+14:53:11.256 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+14:54:27.112 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+14:54:27.115 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+14:54:27.219 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+14:54:27.226 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+14:54:27.227 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+14:59:44.300 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+14:59:45.547 [main] INFO  com.intuit.karate - backend initialized
+14:59:45.688 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+15:05:41.550 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:05:41.765 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:07:14.236 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:07:14.237 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:12:42.305 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:12:42.306 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:12:42.317 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:13:55.378 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:13:55.380 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:13:55.381 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:13:55.468 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:13:55.470 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:13:55.470 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:20:35.949 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:20:35.950 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:20:35.951 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:21:10.177 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:21:10.184 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:21:10.273 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:21:10.277 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:21:10.281 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:21:10.393 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:21:10.394 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:21:10.395 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:22:30.380 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:22:30.381 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:22:30.427 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:22:30.429 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:22:30.429 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:22:30.482 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:22:30.483 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:22:30.484 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:24:08.370 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:24:08.371 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:24:08.437 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:24:08.440 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:24:08.443 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:24:08.529 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:24:08.530 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:24:08.531 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:26:15.471 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:26:15.474 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:26:15.542 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:26:15.544 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:26:15.544 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:26:15.604 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:26:15.606 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:26:15.607 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:28:24.924 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:28:24.925 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:28:25.008 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:28:25.009 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:28:25.010 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:28:25.095 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:28:25.097 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get')
+15:28:25.103 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:34:28.750 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+15:34:30.047 [main] INFO  com.intuit.karate - backend initialized
+15:34:30.172 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+15:34:41.570 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:34:41.781 [nioEventLoopGroup-3-1] WARN  com.intuit.karate - scenario match evaluation failed: javascript evaluation failed: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && Ocp-Apim-Subscription-KeyContains('CorrectAPIKey'), ReferenceError: "Ocp" is not defined in <eval> at line number 1
+15:34:41.790 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:34:41.790 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: (empty)
+15:34:42.106 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:34:42.107 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && Ocp-Apim-Subscription-KeyContains('CorrectAPIKey')
+15:34:42.110 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:34:42.155 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:34:42.157 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && Ocp-Apim-Subscription-KeyContains('CorrectAPIKey')
+15:34:42.158 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:36:17.750 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+15:36:19.292 [main] INFO  com.intuit.karate - backend initialized
+15:36:19.452 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+15:36:29.234 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:36:29.414 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && acceptContains('xml')
+15:36:29.422 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:36:29.423 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: (empty)
+15:36:29.754 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:36:29.755 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && acceptContains('xml')
+15:36:29.758 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:36:29.868 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:36:29.869 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && acceptContains('xml')
+15:36:29.870 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:37:13.708 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+15:37:15.078 [main] INFO  com.intuit.karate - backend initialized
+15:37:15.237 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+15:37:24.595 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:37:24.818 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && acceptContains('application/json')
+15:37:24.941 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:37:24.942 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && acceptContains('application/json')
+15:37:24.952 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:37:25.111 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:37:25.112 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && acceptContains('application/json')
+15:37:25.113 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:38:24.318 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+15:38:25.912 [main] INFO  com.intuit.karate - backend initialized
+15:38:26.039 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+15:38:36.239 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+15:38:36.504 [nioEventLoopGroup-3-1] WARN  com.intuit.karate - scenario match evaluation failed: javascript evaluation failed: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && Ocp-Apim-Subscription-KeyContains('CorrectAPIKey'), ReferenceError: "Ocp" is not defined in <eval> at line number 1
+15:38:36.517 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:38:36.517 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: (empty)
+15:38:36.820 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:38:36.821 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && Ocp-Apim-Subscription-KeyContains('CorrectAPIKey')
+15:38:36.825 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+15:38:36.873 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+15:38:36.874 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && Ocp-Apim-Subscription-KeyContains('CorrectAPIKey')
+15:38:36.875 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+20:28:10.109 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+20:28:14.626 [main] INFO  com.intuit.karate - backend initialized
+20:28:15.286 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+20:28:40.805 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+20:28:41.224 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:28:41.628 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:28:41.630 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:28:41.643 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+20:28:42.551 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:28:42.553 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:28:42.553 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get')
+20:31:27.297 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+20:31:29.337 [main] INFO  com.intuit.karate - backend initialized
+20:31:29.598 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+20:32:01.179 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+20:32:01.590 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.793 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:32:01.797 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.831 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.862 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:42
+20:32:01.862 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:42 - javascript evaluation failed: Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription., <eval>:1:7 Expected ; but found denied
+Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.
+       ^ in <eval> at line number 1 at column number 7
+20:32:01.872 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:32:01.874 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.875 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.878 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:42
+20:32:01.879 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:42 - javascript evaluation failed: Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription., <eval>:1:7 Expected ; but found denied
+Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.
+       ^ in <eval> at line number 1 at column number 7
+20:32:01.895 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:32:01.898 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.899 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.915 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:42
+20:32:01.918 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:42 - javascript evaluation failed: Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription., <eval>:1:7 Expected ; but found denied
+Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.
+       ^ in <eval> at line number 1 at column number 7
+20:32:01.939 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:32:01.944 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.945 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:01.950 [nioEventLoopGroup-3-5] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:42
+20:32:01.955 [nioEventLoopGroup-3-5] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:42 - javascript evaluation failed: Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription., <eval>:1:7 Expected ; but found denied
+Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.
+       ^ in <eval> at line number 1 at column number 7
+20:32:02.040 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:32:02.044 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:02.047 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/incorrectID/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:32:02.047 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: (empty)
+20:33:21.276 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+20:33:23.998 [main] INFO  com.intuit.karate - backend initialized
+20:33:24.286 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+20:33:52.272 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+20:33:52.722 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:33:53.026 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:33:53.028 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:33:53.076 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+20:33:53.076 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: (empty)
+20:33:53.384 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+20:33:53.387 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:33:53.393 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+20:33:53.452 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:42
+20:33:53.454 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:42 - javascript evaluation failed: Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription., <eval>:1:7 Expected ; but found denied
+Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.
+       ^ in <eval> at line number 1 at column number 7
+20:33:53.479 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+20:33:53.481 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:33:53.483 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+20:33:53.491 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:42
+20:33:53.492 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:42 - javascript evaluation failed: Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription., <eval>:1:7 Expected ; but found denied
+Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.
+       ^ in <eval> at line number 1 at column number 7
+20:33:53.509 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+20:33:53.510 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:33:53.512 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+20:33:53.517 [nioEventLoopGroup-3-5] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:42
+20:33:53.518 [nioEventLoopGroup-3-5] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:42 - javascript evaluation failed: Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription., <eval>:1:7 Expected ; but found denied
+Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.
+       ^ in <eval> at line number 1 at column number 7
+20:33:53.553 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+20:33:53.555 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:33:53.557 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+20:33:53.560 [nioEventLoopGroup-3-6] ERROR com.intuit.karate - server-side scenario failed - job-titles-mock.feature:42
+20:33:53.561 [nioEventLoopGroup-3-6] ERROR com.intuit.karate - error, closing connection: 
+job-titles-mock.feature:42 - javascript evaluation failed: Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription., <eval>:1:7 Expected ; but found denied
+Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription.
+       ^ in <eval> at line number 1 at column number 7
+20:35:17.662 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+20:35:19.777 [main] INFO  com.intuit.karate - backend initialized
+20:35:20.015 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+20:35:34.217 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+20:35:34.742 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:35:34.991 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:35:34.994 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:35:35.033 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+20:35:35.040 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: (empty)
+20:35:35.253 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+20:35:35.257 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:35:35.265 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+20:49:34.376 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+20:49:36.958 [main] INFO  com.intuit.karate - backend initialized
+20:49:37.187 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+20:50:16.770 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+20:50:17.252 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:50:17.583 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+20:50:17.585 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:50:17.611 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+20:50:17.611 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: (empty)
+20:50:17.938 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+20:50:17.940 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+20:50:17.962 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+21:14:27.056 [main] INFO  com.intuit.karate.Main - Karate version: 0.9.4
+21:14:28.781 [main] INFO  com.intuit.karate - backend initialized
+21:14:28.943 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+21:14:49.656 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+21:14:50.099 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+21:14:50.338 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+21:14:50.342 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+21:14:50.383 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+21:14:50.523 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles
+21:14:50.525 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+21:14:50.527 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+21:14:50.564 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'APIKeyInsuffientPermission'
+21:14:50.642 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /v1/tenants/incorrectID/jobtitles
+21:14:50.644 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'CorrectAPIKey'
+21:14:50.645 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'InCorrectAPIKey'
+21:14:50.647 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/v1/tenants/f06693bc-f5a5-47e6-b409-6dc545a122d7/jobtitles') && methodIs('get') && requestHeaders['Ocp-Apim-Subscription-Key'][0] == 'APIKeyInsuffientPermission'
+21:14:50.656 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: (empty)

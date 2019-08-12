@@ -1,0 +1,22 @@
+08:42:15.383 karate.env system property was: null 
+d: javascript evaluation failed: read('classpath:karate-config.js'), javascript evaluation failed: function() {    
+  var env = karate.env; // get system property 'karate.env'
+  karate.log('karate.env system property was:', env);
+  var baseurl = karate.properties['baseurl'];
+  if (!env) {
+    env = 'dev';
+  }
+  if (env == 'dev') {
+  baseurl='https://api-dev.paycor.com/hcmcore
+  } else if (env == 'e2e') {
+    // customize
+  }
+    var config = {
+      env: env,
+  	baseurl: baseurl
+    }
+  config.BaseUrl=baseurl
+  return config;
+}, <eval>:9:45 Missing close quote
+  baseurl='https://api-dev.paycor.com/hcmcore
+                                             ^ in <eval> at line number 9 at column number 45

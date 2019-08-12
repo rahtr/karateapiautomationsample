@@ -1,0 +1,18 @@
+13:24:29.794 karate.env system property was: null 
+13:24:29.800 [print] https://localhost
+13:24:29.827 request:
+1 > GET http://localhost:8080/v1/tenants/incorrectID/jobtitles?page=1&pageSize=2&includeInactive=true&sortProperty=1&sortDirection=descending&includeTotalRecordCount=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:24:29.990 response time in milliseconds: 161.28
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: text/html; charset=utf-8
+<html>
+<body>Not Found</body>
+</html>
+
+
